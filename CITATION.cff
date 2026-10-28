@@ -15,7 +15,7 @@ authors:
 repository-code: >-
   https://github.com/vanbreugel-lab/drosophila_body_orientation_predictor
 license: MIT
-version: 1.0.0
+version: 1.0.1
 date-released: "2026-10-28"
 # Add once the Zenodo release exists:
 # doi: ""
