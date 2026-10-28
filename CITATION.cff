@@ -15,10 +15,10 @@ authors:
 repository-code: >-
   https://github.com/vanbreugel-lab/drosophila_body_orientation_predictor
 license: MIT
-date-released: "2026-10-28"  # update to the release date
+version: 1.0.0
+date-released: "2026-10-28"
 # Add once the Zenodo release exists:
 # doi: ""
-# version: ""
 references:
   - type: data
     title: Drosophila trajectory data for training an ANN to predict heading
