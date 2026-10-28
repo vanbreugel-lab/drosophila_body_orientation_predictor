@@ -1,5 +1,7 @@
 
 # drosophila_body_orientation_predictor
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23738821.svg)](https://doi.org/10.5281/zenodo.23738821)
+
 Repo for [Mangat et al. (2026)](https://www.biorxiv.org/content/10.64898/2026.03.30.715335v1.full). Predicts *Drosophila* body heading angle from flight trajectory data using a neural network trained on data from [van Breugel et al. (2014)](https://www.sciencedirect.com/science/article/pii/S0960982213015820).
 
 ## Repository structure
@@ -106,6 +108,26 @@ python example_inference/make_trajectory_grid.py   # --help for the column count
 ```
 
 It writes `example_inference/figures/all_trajectories.svg`.
+
+## Citing this code
+
+The code is archived on Zenodo. Cite the version you used; v1.0.1 is the version for the manuscript.
+
+Mangat, N., May, C., & van Breugel, F. (2026). Predicting Drosophila Body Orientation from a Translational Trajectory Using an Artificial Neural Network (v1.0.1) [Software]. Zenodo. https://doi.org/10.5281/zenodo.23738822
+
+```bibtex
+@software{mangat2026code,
+  author    = {Mangat, Nehal and May, Christina and van Breugel, Floris},
+  title     = {{Predicting \emph{Drosophila} Body Orientation from a Translational Trajectory Using an Artificial Neural Network}},
+  year      = {2026},
+  version   = {v1.0.1},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.23738822},
+  url       = {https://doi.org/10.5281/zenodo.23738822}
+}
+```
+
+https://doi.org/10.5281/zenodo.23738821 always resolves to the latest version.
 
 ## Data
 

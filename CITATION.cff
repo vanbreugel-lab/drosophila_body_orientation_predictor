@@ -17,8 +17,11 @@ repository-code: >-
 license: MIT
 version: 1.0.1
 date-released: "2026-10-28"
-# Add once the Zenodo release exists:
-# doi: ""
+doi: 10.5281/zenodo.23738821  # concept DOI: all versions
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23738822
+    description: Version 1.0.1
 references:
   - type: data
     title: Drosophila trajectory data for training an ANN to predict heading
