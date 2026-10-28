@@ -43,13 +43,13 @@ drosophila_body_orientation_predictor/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/nehalsinghmangat/drosophila_body_orientation_predictor.git
+git clone https://github.com/vanbreugel-lab/drosophila_body_orientation_predictor.git
 cd drosophila_body_orientation_predictor
 ```
 
 ### 2. Download the experimental data
 
-Raw data is archived on [Dryad](https://datadryad.org) in Parquet format. Download and place the files so the directory tree matches:
+The training data are archived on Dryad in Parquet format ([Mangat & van Breugel 2026](https://doi.org/10.5061/dryad.nzs7h455k); see [Data](#data)). Download and place the files so the directory tree matches:
 
 ```
 experimentaldata/
@@ -106,5 +106,38 @@ python example_inference/make_trajectory_grid.py   # --help for the column count
 ```
 
 It writes `example_inference/figures/all_trajectories.svg`.
+
+## Data
+
+The data are archived on Dryad. Both DOIs are reserved but not yet public, so the links will work once the data sets are published.
+
+- **Training data** (`experimentaldata/`, read by notebook 01): free-flight trajectories and body orientations at 0.3, 0.4 and 0.6 m/s wind (van Breugel et al. 2014).
+  Mangat, N., & van Breugel, F. (2026). *Drosophila* trajectory data for training an ANN to predict heading [Dataset]. Dryad. https://doi.org/10.5061/dryad.nzs7h455k
+- **SplitFlowOptoTracking data** (read by `inferencedata/infer_splitflow_headings.py` and `example_inference/extract_splitflow_trajectory.py` for Figure 5 and the example trajectories): flies in laminar and variable wind.
+  Houle, J., Lopez, A., Kumar, G., Stupski, D., Nair, A., & van Breugel, F. (2026). Data -- Olfactory Search Behavior Across Flow Regimes Supports a Unifying Algorithm [Dataset]. Dryad. https://doi.org/10.5061/dryad.x0k6djhwc
+
+```bibtex
+@misc{mangat2026data,
+  author       = {Mangat, Nehal and van Breugel, Floris},
+  title        = {{\emph{Drosophila} trajectory data for training an {ANN} to predict heading}},
+  year         = {2026},
+  note         = {Dataset, forthcoming},
+  publisher    = {Dryad},
+  howpublished = {Dryad},
+  doi          = {10.5061/dryad.nzs7h455k},
+  url          = {https://doi.org/10.5061/dryad.nzs7h455k}
+}
+
+@misc{houle2026data,
+  author       = {Houle, Jaleesa and Lopez, Austin and Kumar, Gaurav and Stupski, David and Nair, Aditya and van Breugel, Floris},
+  title        = {{Data -- Olfactory Search Behavior Across Flow Regimes Supports a Unifying Algorithm}},
+  year         = {2026},
+  note         = {Dataset, forthcoming},
+  publisher    = {Dryad},
+  howpublished = {Dryad},
+  doi          = {10.5061/dryad.x0k6djhwc},
+  url          = {https://doi.org/10.5061/dryad.x0k6djhwc}
+}
+```
 
 If you have any questions regarding the data pipeline, please shoot me an email at nehalsinghmangat.software@gmail.com. If you encounter any issues with running the pipeline or reproducing results, please submit a Github issue.   

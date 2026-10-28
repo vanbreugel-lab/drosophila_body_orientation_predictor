@@ -6,23 +6,49 @@ message: >-
   If you use this software, please cite it using the metadata below.
 type: software
 authors:
-  - family-names: Singh Mangat
+  - family-names: Mangat
     given-names: Nehal
-    orcid: ""  # add your ORCID if you have one
+  - family-names: May
+    given-names: Christina
+  - family-names: van Breugel
+    given-names: Floris
 repository-code: >-
-  https://github.com/nehalsinghmangat/drosophila_body_orientation_predictor
+  https://github.com/vanbreugel-lab/drosophila_body_orientation_predictor
 license: MIT
-date-released: "2024-01-01"  # update with actual release date
-# Uncomment and fill in once published:
+date-released: "2026-10-28"  # update to the release date
+# Add once the Zenodo release exists:
 # doi: ""
-# preferred-citation:
-#   type: article
-#   authors:
-#     - family-names: Singh Mangat
-#       given-names: Nehal
-#   title: >-
-#     Predicting Drosophila Body Orientation from a Translational
-#     Trajectory Using an Artificial Neural Network
-#   journal: ""
-#   year: 2024
-#   doi: ""
+# version: ""
+references:
+  - type: data
+    title: Drosophila trajectory data for training an ANN to predict heading
+    authors:
+      - family-names: Mangat
+        given-names: Nehal
+      - family-names: van Breugel
+        given-names: Floris
+    year: 2026
+    publisher:
+      name: Dryad
+    doi: 10.5061/dryad.nzs7h455k  # forthcoming
+  - type: data
+    title: >-
+      Data -- Olfactory Search Behavior Across Flow Regimes Supports a
+      Unifying Algorithm
+    authors:
+      - family-names: Houle
+        given-names: Jaleesa
+      - family-names: Lopez
+        given-names: Austin
+      - family-names: Kumar
+        given-names: Gaurav
+      - family-names: Stupski
+        given-names: David
+      - family-names: Nair
+        given-names: Aditya
+      - family-names: van Breugel
+        given-names: Floris
+    year: 2026
+    publisher:
+      name: Dryad
+    doi: 10.5061/dryad.x0k6djhwc  # forthcoming

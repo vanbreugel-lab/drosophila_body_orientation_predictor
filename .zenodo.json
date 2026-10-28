@@ -1,0 +1,45 @@
+{
+  "title": "Predicting Drosophila Body Orientation from a Translational Trajectory Using an Artificial Neural Network",
+  "upload_type": "software",
+  "description": "<p>Code, trained models, figures and tables for Mangat et al. (2026). A neural network predicts the body heading of flying <i>Drosophila</i> from their trajectory (groundspeed and airspeed, magnitude and direction), trained on free-flight data from van Breugel et al. (2014) whose 180&deg; heading ambiguity is resolved by a Viterbi heading correction. The repository contains the data processing, heading correction and its hand validation, ANN training and evaluation, the linear and circular regression baselines, inference on new trajectories, and the notebooks that make the paper's figures and tables. The data are archived separately on Dryad (see related identifiers).</p>",
+  "creators": [
+    {"name": "Mangat, Nehal"},
+    {"name": "May, Christina"},
+    {"name": "van Breugel, Floris"}
+  ],
+  "access_right": "open",
+  "license": "mit",
+  "keywords": [
+    "Drosophila",
+    "insect flight",
+    "body orientation",
+    "heading",
+    "artificial neural network",
+    "olfactory navigation",
+    "wind"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.64898/2026.03.30.715335",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-preprint",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5061/dryad.nzs7h455k",
+      "relation": "requires",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5061/dryad.x0k6djhwc",
+      "relation": "requires",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "references": [
+    "Mangat, N., & van Breugel, F. (2026). Drosophila trajectory data for training an ANN to predict heading [Dataset]. Dryad. https://doi.org/10.5061/dryad.nzs7h455k",
+    "Houle, J., Lopez, A., Kumar, G., Stupski, D., Nair, A., & van Breugel, F. (2026). Data -- Olfactory Search Behavior Across Flow Regimes Supports a Unifying Algorithm [Dataset]. Dryad. https://doi.org/10.5061/dryad.x0k6djhwc"
+  ]
+}
