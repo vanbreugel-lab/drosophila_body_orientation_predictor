@@ -1,19 +1,19 @@
 Model,Inputs,Overall,Upwind,Crosswind,Downwind
-Circular OLS,ground velocity,16.8,4.4,27.6,72.9
-Möbius circular regression,ground velocity,15.9,5.0,31.3,62.8
-Möbius circular regression,thrust,15.2,9.4,21.5,32.6
-Linear OLS,thrust,15.0,7.7,23.7,40.5
-Circular OLS,thrust,13.9,7.2,26.4,32.6
-Linear OLS,ground velocity,11.0,4.0,20.3,40.9
-Circular OLS,thrust + ground velocity,10.7,4.7,21.8,29.7
-Linear OLS,air velocity + ground velocity,10.2,4.0,19.5,37.3
-Linear OLS,air velocity,10.0,4.4,18.9,38.6
-Circular OLS,air velocity,9.8,4.5,23.8,25.3
-Circular OLS,thrust + air velocity,9.6,5.0,21.1,26.0
-Linear OLS,thrust + air velocity,9.6,4.6,17.0,36.7
-Circular OLS,thrust + air velocity + ground velocity,9.5,4.2,19.8,23.8
-Linear OLS,thrust + ground velocity,9.5,4.3,17.5,36.1
-Linear OLS,thrust + air velocity + ground velocity,9.5,4.3,17.5,35.2
-Circular OLS,air velocity + ground velocity,9.4,4.1,22.6,25.3
-Möbius circular regression,air velocity,8.3,5.4,13.9,24.3
-ANN,air velocity + ground velocity,5.0,3.5,10.5,9.8
+Circular OLS,ground velocity,16.8,4.4,27.9,73.6
+Möbius circular regression,ground velocity,15.8,5.0,31.4,61.2
+Möbius circular regression,thrust,14.8,9.5,21.3,32.0
+Linear OLS,thrust,14.8,7.6,23.1,38.6
+Circular OLS,thrust,13.5,7.1,25.5,32.1
+Linear OLS,ground velocity,11.1,4.1,20.5,40.5
+Circular OLS,thrust + ground velocity,10.9,4.6,21.2,29.8
+Linear OLS,air velocity + ground velocity,10.4,4.0,19.5,37.3
+Linear OLS,air velocity,10.2,4.3,18.8,38.0
+Circular OLS,air velocity,9.8,4.6,24.1,25.5
+Circular OLS,thrust + air velocity,9.6,5.0,21.2,25.7
+Circular OLS,air velocity + ground velocity,9.5,4.0,22.4,25.5
+Linear OLS,thrust + air velocity,9.5,4.5,17.2,36.6
+Linear OLS,thrust + air velocity + ground velocity,9.5,4.3,17.6,34.6
+Circular OLS,thrust + air velocity + ground velocity,9.4,4.2,19.9,24.5
+Linear OLS,thrust + ground velocity,9.4,4.3,17.6,35.3
+Möbius circular regression,air velocity,8.4,5.5,13.6,24.7
+ANN,air velocity + ground velocity,4.9,3.2,10.7,11.4

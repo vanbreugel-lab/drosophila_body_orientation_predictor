@@ -1,7 +1,7 @@
 Covariate,Spearman ρ,p,n
-Mean |slip angle| (deg),0.703,8.2e-164,1096
-Max turning rate (deg/frame),0.587,2.7e-102,1096
-Mean groundspeed (m/s),-0.545,1.1e-85,1096
-Mean airspeed (m/s),-0.470,2.4e-61,1096
-Mean thrust magnitude,-0.430,2.0e-50,1096
-Wind speed (m/s),-0.004,8.9e-01,1096
+Mean |slip angle| (deg),0.731,1.6e-183,1096
+Max turning rate (deg/frame),0.579,6.0e-99,1096
+Mean groundspeed (m/s),-0.525,1.5e-78,1096
+Mean airspeed (m/s),-0.507,1.5e-72,1096
+Mean thrust magnitude,-0.472,6.7e-62,1096
+Wind speed (m/s),-0.006,8.3e-01,1096
